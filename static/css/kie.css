@@ -1,0 +1,74 @@
+
+#header-container{
+    width: 100%;
+    height: 100%;
+}
+#text-input-container{
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#text-input{
+    width: 100%
+}
+#extract-btn-container{
+
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.extract-btn{
+    margin-left: 10px;
+}
+
+#extract-result-container{
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 20px;
+    padding: 0 11% 0 11%;
+}
+
+.result-title{
+    color: #265a88;
+    margin-top: 16px;
+    margin-bottom: 2px;
+}
+
+#word-cut-result{
+    margin: 0 auto;
+    width: 100%;
+    height: 420px;
+    border: 1px #d8d7d7 solid;
+    /* margin-top: 50px; */
+    background-color: #FFF;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
