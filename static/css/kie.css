@@ -4,12 +4,13 @@
     height: 100%;
 }
 #text-input-container{
-    width: 78%;
+    width: 61%;
     margin: 0 auto;
     margin-top: 50px;
 }
 #text-input{
-    width: 100%
+    width: 100%;
+    font-size: 15px;
 }
 #extract-btn-container{
 
@@ -25,24 +26,28 @@
     width: 100%;
     overflow: auto;
     margin-bottom: 20px;
-    padding: 0 11% 0 11%;
+    padding: 0 19.5% 0 19.5%;
 }
 
 .result-title{
     color: #265a88;
     margin-top: 16px;
     margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
-#word-cut-result{
+.result-item-container{
     margin: 0 auto;
     width: 100%;
-    height: 420px;
+    height: 200px;
     border: 1px #d8d7d7 solid;
     /* margin-top: 50px; */
     background-color: #FFF;
     overflow-y: auto;
     overflow-x: hidden;
+    padding: 4px;
+    font-size: 16px;
 }
 
 

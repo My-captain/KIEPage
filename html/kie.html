@@ -24,9 +24,7 @@
 </header>
 
 <div id="text-input-container">
-    <textarea id="text-input" class="form-control" rows="16">
-        1.患者既往有高血压病史,最高达180/100mmHg,口服"北京降压灵、利血平"治疗,有脑梗死病史,遗留语笨及左侧肢体无力.
-        2.门诊行头CT检查,显示左侧侧脑室体旁低密度病灶,以"脑梗死"收入我科.
+    <textarea id="text-input" class="form-control" rows="16">左肺癌一年,化疗一疗程,因白细胞减低停用,病理：左下肺腺癌,放疗27次,3月后CT发现纵隔淋巴左胸膜转移,目前仍见贫血,手足浮肿,低血压,既往有高血压,有痰不多色黄,口干,心中有火热感,尿黄,大便干结,2日1行,面浮黄,
     </textarea>
     <div id="extract-btn-container">
         <a class="btn btn-default extract-btn" href="#" onclick="info_extract('HMM')">HMM抽取</a>
@@ -37,8 +35,28 @@
 <div id="extract-result-container">
 
     <div class="result-title">分词</div>
-    <div id="word-cut-result">
-        <p class="word-cut-result-item"></p>
+    <div id="word-cut-result" class="result-item-container">
+        <p class="word-cut-result-item">左 肺癌 一 年 , 化疗 一 疗程 , 因 白细胞 减低 停 用 , 病理 ： 左 下 肺 腺 癌 , 放疗 27 次 , 3月 后 CT 发现 纵隔 淋巴 左 胸膜 转移 , 目前 仍 见 贫血 , 手足 浮肿 , 低血压 , 既 往 有 高血压 , 有 痰 不 多 色 黄 , 口 干 , 心中 有 火热 感 , 尿 黄 , 大便 干 结 , 2日 1 行 , 面 浮 黄 ,</p>
+    </div>
+
+    <div class="result-title">词性标注</div>
+    <div id="pos-tag-result" class="result-item-container">
+        <p class="pos-tag-result-item">左#adjective 肺癌#noun 一#numeral 年#classifier ,#punctuation mark 化疗#verb 一#numeral 疗程#noun ,#punctuation mark 因#preposition 白细胞#noun 减低#verb 停#verb 用#verb ,#punctuation mark 病理#noun ：#punctuation mark 左#noun of locality 下#verb 肺#noun 腺#noun 癌#noun ,#punctuation mark 放疗#verb 27#numeral 次#classifier ,#punctuation mark 3月#time word 后#noun of locality CT#noun 发现#verb 纵隔#noun 淋巴#noun 左#noun of locality 胸膜#noun 转移#verb ,#punctuation mark 目前#time word 仍#adverb 见#verb 贫血#verb ,#punctuation mark 手足#noun 浮肿#verb ,#punctuation mark 低血压#noun ,#punctuation mark 既#conjunction 往#preposition 有#verb 高血压#noun ,#punctuation mark 有#verb 痰#noun 不#adverb 多#adjective 色#noun 黄#adjective ,#punctuation mark 口#noun 干#verb ,#punctuation mark 心中#locative word 有#verb 火热#status word 感#verb ,#punctuation mark 尿#noun 黄#adjective ,#punctuation mark 大便#noun 干#verb 结#verb ,#punctuation mark 2日#time word 1#numeral 行#classifier ,#punctuation mark 面#noun 浮#verb 黄#adjective ,#punctuation mark</p>
+    </div>
+
+    <div class="result-title">
+        实体抽取：
+        <p class="ner-label">关键词</p>
+        <p class="ner-label">时间</p>
+    </div>
+    <div id="entity-recognize-result" class="result-item-container">
+        <p class="pos-tag-result-item">发现 转移 肺癌 化疗 贫血</p>
+        <p class="pos-tag-result-item">3月 目前 2日</p>
+    </div>
+
+    <div class="result-title">句法分析</div>
+    <div id="syntax-analysis-result" class="result-item-container">
+        <p class="pos-tag-result-item"></p>
     </div>
 </div>
 

@@ -9,13 +9,18 @@ header {
 }
 #nav {
     height: 100%;
-    padding-right: 10px;
+    /* padding-right: 10px; */
+    /* padding: 30%; */
+    /* padding-left: 20%; */
     z-index: 900;
     box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+    overflow: hidden;
+    /* display: inline; */
 }
 #logo {
     height: 100%;
-    margin: 0 28px 0 123px;
+    /* margin-right: 123px; */
+    margin-left: 19.5%;
     float: left;
     background-size: cover;
 }
@@ -26,6 +31,7 @@ header {
     list-style: none;
     height: 100%;
     float: left;
+    margin-left: 76px;
 }
 #header-nav-items span{
     height: 100%;
@@ -177,7 +183,7 @@ footer .footer-copyright {
     color: #93999F;
     line-height: 24px;
 }
-/*ÃƒÂ©Ã‚Â¡Ã‚Â¶ÃƒÂ©Ã†â€™Ã‚Â¨ÃƒÂ§Ã¢â‚¬ÂÃ‚Â¨ÃƒÂ¦Ã‹â€ Ã‚Â·ÃƒÂ§Ã¢â€žÂ¢Ã‚Â»ÃƒÂ¥Ã‚Â½Ã¢â‚¬Â¢*/
+/*ÃƒÆ’Ã‚Â©Ãƒâ€šÃ‚Â¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã‚Â©Ãƒâ€ Ã¢â‚¬â„¢Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã‚Â§ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒâ€šÃ‚Â¨ÃƒÆ’Ã‚Â¦Ãƒâ€¹Ã¢â‚¬Â Ãƒâ€šÃ‚Â·ÃƒÆ’Ã‚Â§ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢Ãƒâ€šÃ‚Â»ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â½ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢*/
 .g-user-card {
     position: absolute;
     right: 20px;
